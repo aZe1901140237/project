@@ -1,0 +1,187 @@
+//复位
+*{
+  margin: 0;
+  padding: 0;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+h2{
+  font-size: 24px;
+  text-align: center;
+  margin-top: 35px;
+}
+
+
+//变量
+@primary:#ff3333;
+
+//公共样式
+.containe{
+  width:1142px !important;
+  margin: auto !important;
+}
+
+//index样式
+nav{
+  width: 100%;
+  overflow: hidden;
+  background:@primary;
+  height: 80px;
+  .containe{
+    .img{
+      float: left;
+      margin-top: 15px;
+    }
+    .link{
+          float: right;
+      li{
+        float: left;
+        margin-top: 30px;
+        a{
+          display: block;
+          padding: 0px 15px;
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+}
+
+.banner{
+  background: url("../images/banner-index.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-width: 1170px;
+  min-height: 550px;
+  margin: 0 auto;
+
+  .containe{
+
+    .h1{
+      color: #fff;
+      width: 315px;
+      height: 95px;
+      border: 2px solid #FFFFFF;
+      font-size: 36px;
+      text-align: center;
+      line-height: 95px;
+      //margin-top: 80px;
+      margin: 80px auto 50px;
+
+    }
+    
+  }
+  .mask{
+    width: 100%;
+    height: 150px;
+    background: rgba(0,0,0,.3);
+    margin-top: 50px;
+
+    
+  }
+}
+
+.page01{
+  width: 100%;
+  background: #e3e1e1;
+  height: 135px;
+  .containe{
+      overflow: hidden;
+    .left{
+      float: left;
+      margin-top:43px ;
+        p{
+          font-size: 30px;
+        }
+        .title{
+          margin-top:16px ;
+          font-size: 12px;
+        }
+    }
+    .right{
+      background-color: #ff3333;
+      font-size: 16px;
+      color: #FFFFFF;
+      width: 150px;
+      height: 40px;
+      float: right;
+      border-radius:5px;
+      text-align: center;
+      line-height: 40px;
+      margin-top: 40px;
+      margin-right: 50px;
+      cursor: pointer;
+
+    }
+
+  }
+}
+
+.page02{
+    .containe{
+      div{
+        h2{
+          b{
+            color: red;
+          }
+        }
+        p{
+          text-align: center;
+          margin-top: 40px;
+        }
+      }
+      ul{
+        width: 100%;
+        overflow: hidden;
+        margin-top: 60px;
+        margin-bottom: 60px;
+
+        li{
+          float: left;
+          text-align: center;
+          width: 25%;
+          h3{
+            margin-top: 30px;
+          }
+          p{
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+}
+
+.page03{
+  .containe{
+
+
+    h2{
+      margin-bottom: 60px;
+      b{
+        color: red;
+      }
+
+    }
+
+  }
+  ul{
+    width: 100%;
+    overflow: hidden;
+    li{
+      width: 16.6667%;
+      float: left;
+      overflow: hidden;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}

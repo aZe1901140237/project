@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+h2 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 35px;
+}
+.containe {
+  width: 1142px !important;
+  margin: auto !important;
+}
+nav {
+  width: 100%;
+  overflow: hidden;
+  background: #ff3333;
+  height: 80px;
+}
+nav .containe .img {
+  float: left;
+  margin-top: 15px;
+}
+nav .containe .link {
+  float: right;
+}
+nav .containe .link li {
+  float: left;
+  margin-top: 30px;
+}
+nav .containe .link li a {
+  display: block;
+  padding: 0px 15px;
+  color: #fff;
+  font-size: 16px;
+}
+.banner {
+  background: url("../images/banner-index.jpg") no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  min-width: 1170px;
+  min-height: 550px;
+  margin: 0 auto;
+}
+.banner .containe .h1 {
+  color: #fff;
+  width: 315px;
+  height: 95px;
+  border: 2px solid #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+  line-height: 95px;
+  margin: 80px auto 50px;
+}
+.banner .mask {
+  width: 100%;
+  height: 150px;
+  background: rgba(0, 0, 0, 0.3);
+  margin-top: 50px;
+}
+.page01 {
+  width: 100%;
+  background: #e3e1e1;
+  height: 135px;
+}
+.page01 .containe {
+  overflow: hidden;
+}
+.page01 .containe .left {
+  float: left;
+  margin-top: 43px ;
+}
+.page01 .containe .left p {
+  font-size: 30px;
+}
+.page01 .containe .left .title {
+  margin-top: 16px ;
+  font-size: 12px;
+}
+.page01 .containe .right {
+  background-color: #ff3333;
+  font-size: 16px;
+  color: #FFFFFF;
+  width: 150px;
+  height: 40px;
+  float: right;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 40px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.page02 .containe div h2 b {
+  color: red;
+}
+.page02 .containe div p {
+  text-align: center;
+  margin-top: 40px;
+}
+.page02 .containe ul {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.page02 .containe ul li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+.page02 .containe ul li h3 {
+  margin-top: 30px;
+}
+.page02 .containe ul li p {
+  margin-top: 40px;
+}
+.page03 .containe h2 {
+  margin-bottom: 60px;
+}
+.page03 .containe h2 b {
+  color: red;
+}
+.page03 ul {
+  width: 100%;
+  overflow: hidden;
+}
+.page03 ul li {
+  width: 16.6667%;
+  float: left;
+  overflow: hidden;
+}
+.page03 ul li img {
+  width: 100%;
+}
